@@ -1,5 +1,5 @@
 ## Goal:
-### Avoid being asked input password every time push my reop.
+### Avoid being asked to input a password every time I push my repo.
 
 
 ## Steps:
@@ -15,7 +15,7 @@ ssh-keygen -t ed25519 -C "liurusi@163.com"
 eval "$(ssh-agent -s)"
 ```
 
-### 3. Add new_key localy
+### 3. Add new_key locally
 ```
 ssh-add liurusi@github 
 ```
@@ -25,7 +25,7 @@ ssh-add liurusi@github
 wl-copy < cat liurusi@github.pub 
 ```
 
-### 5. Open github.com, find SSH and GPG Key in Setting. Then click add new ssh key, Enter name "lt" and paste the pub key into the key input frame.
+### 5. Open github.com, and find SSH and GPG Key in Setting. Then click add new ssh key, Enter the name "lt" and paste the pub key into the key input frame.
 
 
 ### 6. Switch the repo from https to ssh
