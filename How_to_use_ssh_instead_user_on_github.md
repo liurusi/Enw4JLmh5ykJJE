@@ -22,7 +22,7 @@ ssh-add liurusi@github
 
 ### 4. Copy new_key.pub in clipboard.
 ```
-wl-copy < cat liurusi@github.pub 
+wl-copy < liurusi@github.pub 
 ```
 
 ### 5. Open github.com, and find SSH and GPG Key in Setting. Then click add new ssh key, Enter the name "lt" and paste the pub key into the key input frame.
