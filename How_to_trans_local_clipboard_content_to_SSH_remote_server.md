@@ -13,5 +13,5 @@ echo $(ssh 192.168.10.33 wl-paste)
 
  ## Client's WM = Sway
  ```
- echo $(ssh 192.168.10.33 env WAYLAND_DESKTOP=Wayland-0 wl-paste)
+ echo $(ssh 192.168.10.33 env WAYLAND_DISPLAY=Wayland-0 wl-paste)
  ```
